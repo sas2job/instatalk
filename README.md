@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# INSTATALK
 
-Things you may want to cover:
+Web application for Live chat.
 
-* Ruby version
+[ШInstatalk](http://instalex.herokuapp.com/) - heroku deployed example
 
-* System dependencies
+### Requirements
 
-* Configuration
+`ruby >= 2.5.1`
 
-* Database creation
+`rails ~> 5.2.3`
 
-* Database initialization
+### Installation & using
 
-* How to run the test suite
+In `terminal` or `cmd`
 
-* Services (job queues, cache servers, search engines, etc.)
+- `$ git clone git@github.com:sas2job/instatalk.git`
 
-* Deployment instructions
+- `$ gem install bundler` - if needed
 
-* ...
+- `$ bundle install`
+
+- `$ rails db:migrate`
+
+- `$ rails s` for server starting
+
+Then open `http://localhost:3000` at your web-browser
