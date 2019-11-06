@@ -4,7 +4,7 @@
 
 Web application for Live chat.
 
-[ШInstatalk](http://instalex.herokuapp.com/) - heroku deployed example
+[Instatalk](http://instalex.herokuapp.com/) - heroku deployed example
 
 ### Requirements
 
