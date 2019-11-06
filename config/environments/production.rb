@@ -46,7 +46,7 @@ Rails.application.configure do
   config.action_cable.url = 'wss://instalex.herokuapp.com/cable'
   config.action_cable.allowed_request_origins = [ 
     'http://instalex.herokuapp.com/cable', 
-    'https://instalex.herokuapp.com/cable
+    'https://instalex.herokuapp.com/cable'
   ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
